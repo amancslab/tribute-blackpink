@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Montserrat&display=swap');
+
+html {
+  scroll-behavior:smooth;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  padding-top: 70px;
+  background-image: linear-gradient(#000000, #ff99CC);
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #4c454c;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+nav ul li {
+  margin: 0 20px 0 20px;
+}
+
+nav ul li a {
+  color: #f77fbe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#main h1 {
+  color: #f77fbe;
+  font-family: Primetime, sans-serif;
+  font-size: 120px;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+#main h1 img{
+  margin: -100px;
+}
+
+#main p {
+  color: #4c454c;
+  margin: 0;
+  font-size: 5vw;
+}
+
+#img-div {
+  background-color: #4c454c;
+  padding: 15px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+}
+
+#img-caption {
+  color: #f77fbe;
+  margin-top: 10px;
+  font-size: 0.7em;
+}
+
+#tribute-info {
+  width: 600px;
+  margin: 50px auto;
+}
+
+#tribute-info h2 {
+  color: #4c454c;
+  text-align: center;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+
+  justify-content: center;
+}
+
+#tribute-info li {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.album {
+  position: relative;
+}
+
+.album .album-img {
+  width: 100%;
+  height: 100%;
+}
+
+.album .album-overlay {
+  background-color: #4c454c;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #f77fbe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.album .album-overlay:hover {
+  opacity: 1;
+}
+
+.release-date {
+  font-size: 0.8em;
+}
+
+.album-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#videos {
+  color: #4c454c;
+  text-align: center;
+}
+
+.video-list {
+  margin-top: 30px;
+}
+
+#tribute-info {
+  width: 600px;
+  margin: 50px auto;
+}
+
+#tribute-info h2 {
+  text-align: center;
+}
+
+
+.release-date {
+  font-size: 0.8em;
+}
+
+.song-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#follow {
+  text-align: center;
+  background-color: #4c454c;
+  padding: 5px 0;
+}
+
+#follow h2 {
+  color: #f77fbe;
+}
+
+#follow ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#follow li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+#follow li a {
+  color: #f77fbe;
+}
